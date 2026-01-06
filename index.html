@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenangan Tak Terlupakan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden; /* Mencegah scroll horizontal */
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            text-align: center;
+            padding: 2em 0;
+            margin-bottom: 2em;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Gallery */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        .image-description {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #555;
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5em 0;
+            background-color: #333;
+            color: #fff;
+            margin-top: 2em;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .gallery-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kenangan Tak Terlupakan</h1>
+    </header>
+
+    <section class="gallery">
+        <div class="gallery-item">
+            <img src="foto/arva.jpeg" alt="Kenangan 1">
+            <p class="image-description">bikin video yang membosankan tapi juga seru</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/l.jpeg" alt="Kenangan 2">
+            <p class="image-description">nah kalo ini foto kenangan kita ber4 jangan sampai hilang,belum tentu kita dapat berkumpul kembali</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/o.jpeg" alt="Kenangan 3">
+            <p class="image-description">tetap menjadi pria yang membantu memfoto</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/sigit (9).jpeg" alt="Kenangan 4">
+            <p class="image-description">foto waktu ber3 itu si kecil nyempil aja deh</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/sigit (6).jpeg" alt="Kenangan 5">
+            <p class="image-description">tetap eksis walaupun kita tidak dapat melihatmu setiap hari</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/sigit (8).jpeg" alt="Kenangan 6">
+            <p class="image-description">piala yang kita perjuangkan itu sekarang menjadi saksi bisu betapa keren nya danton kita</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/WhatsApp Image 2026-01-06 at 05.49.10.jpeg" alt="Kenangan 7">
+            <p class="image-description">jangan ngeracing, mengko tibo nang gerbang</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/t.jpeg" alt="Kenangan 8">
+            <p class="image-description">maen pes karo dewa pees cuy</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/WhatsApp Image 2026-01-06 at 05.49.12.jpeg" alt="Kenangan 9">
+            <p class="image-description">botak e apik timbang belah tengah ra ono awakmu</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/WhatsApp Image 2026-01-06 at 05.49.25.jpeg" alt="Kenangan 10">
+            <p class="image-description">turu nang kelas apik pas udan" terus nang kantin</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/WhatsApp Image 2026-01-06 at 05.49.27.jpeg" alt="Kenangan 11">
+            <p class="image-description">kemah terakhir dan juga foto terakhir saat kemah</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/WhatsApp Image 2026-01-06 at 05.49.26.jpeg" alt="Kenangan 12">
+            <p class="image-description">ojo lali sholat jum'at brooo</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/sigit (1).jpeg" alt="Kenangan 13">
+            <p class="image-description">dadi ultraman e kurang siji coy</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/sigit (5).jpeg" alt="Kenangan 14">
+            <p class="image-description">tetep ae gagah danton e </p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/WhatsApp Image 2026-01-06 at 05.49.29.jpeg" alt="Kenangan 15">
+            <p class="image-description">yah ga enek seng mbrong hadiah neh mengko</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/sigit (4).jpeg" alt="Kenangan 16">
+            <p class="image-description">oh iya mungkin perwakilan kelas yaaa ini,tetep semangat awali kegiatan dengan berdoa jangan pernah jadi orang asing dengan kami,baik" di sana semoga mendapatkan temen seasik dan seproo kami yaaa.kita punya rencana tapi allah punya takdir semoga dirimu lulus dengan nilai terbaik,dear XI AKL</p>
+        </div>
+        <div class="gallery-item">
+            <img src="foto/sigit (2).jpeg" alt="Kenangan 17">
+            <p class="image-description">foto terakhir megang hadiah yaaaa
+                salam dari rizal D.D wahyu,and taufiq seee you semoga kita di pertemukan lagi di tidak sengajaan selanjuynya.tunggu aku di dieng
+            </p>
